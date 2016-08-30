@@ -5,11 +5,11 @@ html, body {
   padding: 0; }
 
 .header {
-  height: 100px;
+  height: 75px;
   width: 100%;
   background: black; }
 
-.headerLink {
+.header a {
   color: white;
   padding: 2%;
   border-right: solid white 2px;
