@@ -92,9 +92,19 @@ app.use('/public/', function(request, response){
                             response.end();
                         }
                         else{
-                            response.writeHeader(200);
-                            response.write(file, "binary");
-                            response.end();
+                            fullPath = path.join(process.cwd(), htmlPath);
+                            fileSys.readFile(fullPath, "binary", function(err, file){
+                                if(err){
+                                    response.writeHeader(500, {"Content-Type": "text/plain"});
+                                    response.write(err + "\n");
+                                    response.end();
+                                }
+                                else{
+                                    response.writeHeader(200);
+                                    response.write(file, "binary");
+                                    response.end();
+                                }
+                            });
                         }
                     }
                 });
