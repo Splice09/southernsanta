@@ -1,11 +1,15 @@
 {
-	"name": "SouthernSanta",
-	"version": "0.0.1",
-	"description": "Professional website for Santa Clause.",
-	"main": "server.js",
-	"author": "Patrick Fleming",
-	"license": "MIT",
-	"dependencies": {
-		"connect": "3.4.1"
-	}
+  "name": "SouthernSanta",
+  "version": "0.0.1",
+  "description": "Professional website for Santa Clause.",
+  "main": "server.js",
+  "author": "Patrick Fleming",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "3.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
 }
