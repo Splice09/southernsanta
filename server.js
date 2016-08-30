@@ -60,7 +60,22 @@ app.use('/public/', function(request, response){
                         response.end();
                     }
                     else{
-                        if(fullPath == "/app/assets/StyleSheets/myStyle.css"){
+                        if(fullPath == "/app/pages/about.html"){
+                            response.writeHeader(200);
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/pages/contact.html"){
+                            response.writeHeader(200);
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/pages/photos.html"){
+                            response.writeHeader(200);
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/assets/StyleSheets/desktopStyle.css"){
                             response.writeHeader(200, {"Content-Type": "text/css"});
                             response.write(file, "binary");
                             response.end();
