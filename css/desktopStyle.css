@@ -7,11 +7,15 @@ html, body {
   padding: 0;
   min-width: 934px; }
 
+/* ================================================= */
+/* HEADER STYLE */
+/* ================================================= */
 .header {
   display: flex;
   flex-direction: row;
   height: 75px;
   width: 100%;
+  line-height: 75px;
   background: black;
   color: white; }
 
@@ -19,9 +23,11 @@ html, body {
   padding-left: 15px;
   padding-right: 15px;
   border-right: solid white 2px;
-  line-height: 75px;
   text-decoration: none;
   font-size: 2rem; }
+
+.header a:visited {
+  color: white; }
 
 .filler {
   flex-grow: 1; }
@@ -33,6 +39,9 @@ html, body {
   margin-left: 20px;
   white-space: nowrap; }
 
+/* ================================================= */
+/* BODY STYLE */
+/* ================================================= */
 .homeContent {
   flex-grow: 1;
   height: 25%;
