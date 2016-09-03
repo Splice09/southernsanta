@@ -17,7 +17,7 @@ html, body {
   width: 100%;
   line-height: 75px;
   background: black;
-  color: white; }
+  color: #e1d6ce; }
 
 .header a {
   padding-left: 15px;
@@ -40,7 +40,7 @@ html, body {
   white-space: nowrap; }
 
 /* ================================================= */
-/* BODY STYLE */
+/* HOME BODY STYLE */
 /* ================================================= */
 .homeContent {
   flex-grow: 1;
@@ -51,3 +51,30 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+/* ================================================= */
+/* ABOUT BODY STYLE */
+/* ================================================= */
+.aboutContent {
+  flex-grow: 1;
+  height: 10%;
+  width: 100%;
+  background: #e1d6ce; }
+
+/* ================================================= */
+/* CONTACT BODY STYLE */
+/* ================================================= */
+.contactContent {
+  flex-grow: 1;
+  height: 10%;
+  width: 100%;
+  background: #e1d6ce; }
+
+/* ================================================= */
+/* PHOTOS BODY STYLE */
+/* ================================================= */
+.photosContent {
+  flex-grow: 1;
+  height: 10%;
+  width: 100%;
+  background: #e1d6ce; }
