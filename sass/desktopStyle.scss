@@ -20,7 +20,7 @@ html, body{
     flex-direction:row;
     height:75px;
     width:100%;
-    line-height:75px;
+    line-height:85px;
     background:black;
     color:$CreamColor;
     font-family: 'Great Vibes', cursive;
@@ -31,7 +31,7 @@ html, body{
     padding-right:15px;
     border-right: solid white 2px;
     text-decoration:none;
-    font-size:2rem;
+    font-size:2.3rem;
 }
 
 .header a:visited{
@@ -43,7 +43,7 @@ html, body{
 }
 
 .name{
-  font-size:3rem;
+  font-size:3.5rem;
   text-align:right;
   margin-right:20px;
   margin-left:20px;
@@ -57,7 +57,7 @@ html, body{
     flex-grow:1;
     height:25%;
     width:100%;
-    background: url("http://imgur.com/cB9tMgi.jpg") no-repeat top center fixed;
+    background: url("http://i.imgur.com/HZMAy4e.jpg") no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
