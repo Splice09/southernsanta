@@ -20,10 +20,10 @@ html, body{
     flex-direction:row;
     height:75px;
     width:100%;
-    line-height:85px;
+    line-height:75px;
     background:black;
     color:$CreamColor;
-    font-family: 'Great Vibes', cursive;
+    
 }
 
 .header a{
@@ -31,7 +31,7 @@ html, body{
     padding-right:15px;
     border-right: solid white 2px;
     text-decoration:none;
-    font-size:2.3rem;
+    font-size:2rem;
 }
 
 .header a:visited{
@@ -48,6 +48,8 @@ html, body{
   margin-right:20px;
   margin-left:20px;
   white-space: nowrap;
+  line-height:90px;
+  font-family: 'Great Vibes', cursive;
 }
 
 /* ================================================= */
