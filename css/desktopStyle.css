@@ -17,7 +17,8 @@ html, body {
   width: 100%;
   line-height: 75px;
   background: black;
-  color: #f1ffff; }
+  color: #f1ffff;
+  font-family: 'Great Vibes', cursive; }
 
 .header a {
   padding-left: 15px;
