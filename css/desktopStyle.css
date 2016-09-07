@@ -15,16 +15,20 @@ html, body {
   flex-direction: row;
   height: 75px;
   width: 100%;
-  line-height: 75px;
   background: black;
   color: #f1ffff; }
 
 .header a {
   padding-left: 15px;
   padding-right: 15px;
-  border-right: solid white 2px;
   text-decoration: none;
-  font-size: 2rem; }
+  font-size: 2rem;
+  line-height: 50px;
+  height: 50px;
+  margin-top: 14px; }
+
+.borderLink {
+  border-right: solid white 2px; }
 
 .header a:visited {
   color: white; }
@@ -39,7 +43,8 @@ html, body {
   margin-left: 20px;
   white-space: nowrap;
   line-height: 90px;
-  font-family: 'Great Vibes', cursive; }
+  font-family: 'Great Vibes', cursive;
+  color: #dfbc49; }
 
 /* ================================================= */
 /* HOME BODY STYLE */

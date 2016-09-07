@@ -1,5 +1,6 @@
 $CreamColor: #f1ffff;
 $SantaRed: #961213;
+$SantaGold: #dfbc49;
 
 html, body{
     display:flex;
@@ -20,7 +21,6 @@ html, body{
     flex-direction:row;
     height:75px;
     width:100%;
-    line-height:75px;
     background:black;
     color:$CreamColor;
     
@@ -29,9 +29,15 @@ html, body{
 .header a{
     padding-left:15px;
     padding-right:15px;
-    border-right: solid white 2px;
     text-decoration:none;
     font-size:2rem;
+    line-height:50px;
+    height:50px;
+    margin-top:14px;
+}
+
+.borderLink{
+    border-right: solid white 2px;
 }
 
 .header a:visited{
@@ -50,6 +56,7 @@ html, body{
   white-space: nowrap;
   line-height:90px;
   font-family: 'Great Vibes', cursive;
+  color:$SantaGold;
 }
 
 /* ================================================= */
