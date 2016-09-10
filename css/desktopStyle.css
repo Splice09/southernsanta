@@ -16,7 +16,7 @@ html, body {
   height: 75px;
   width: 100%;
   background: black;
-  color: #f1ffff; }
+  color: #d7d6d6; }
 
 .header a {
   padding-left: 15px;
@@ -25,13 +25,14 @@ html, body {
   font-size: 2rem;
   line-height: 50px;
   height: 50px;
-  margin-top: 14px; }
+  margin-top: 14px;
+  font-family: 'Great Vibes', cursive; }
 
 .borderLink {
-  border-right: solid white 2px; }
+  border-right: solid #d7d6d6 2px; }
 
 .header a:visited {
-  color: white; }
+  color: #d7d6d6; }
 
 .filler {
   flex-grow: 1; }
