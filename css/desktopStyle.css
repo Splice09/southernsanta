@@ -78,6 +78,15 @@ html, body {
   width: 100%;
   background: #f1ffff; }
 
+.textContent {
+  width: 50%;
+  height: 100%;
+  background: pink; }
+
+.calendarContent {
+  width: 50%;
+  height: 100%; }
+
 /* ================================================= */
 /* PHOTOS BODY STYLE */
 /* ================================================= */
