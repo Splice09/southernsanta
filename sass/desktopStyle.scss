@@ -75,18 +75,25 @@ html, body{
 }
 
 /* ================================================= */
-/* HOME BODY STYLE */
+/* SITE WIDE STYLE */
 /* ================================================= */
 .pageContainer{
     flex-grow:1;
     height:25%;
-    width:100%;
-    background: url("http://i.imgur.com/HZMAy4e.jpg") no-repeat top center fixed;
+    width:100%;   
+}
+
+/* ================================================= */
+/* HOME BODY STYLE */
+/* ================================================= */
+#homeContainer{
+    background: url("http://i.imgur.com/HZMAy4e.jpg") no-repeat top center fixed;  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 /* ================================================= */
 /* ABOUT BODY STYLE */
