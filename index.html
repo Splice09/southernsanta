@@ -10,11 +10,11 @@
         <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
 
         <!--STYLES-->
-        <link rel="stylesheet" type="text/css"  media="only screen and (orientation:landscape)" href='/public/css/desktopStyle.css' />
+        <link rel="stylesheet" type="text/css"  media="only screen and (orientation:landscape)" href='/css/desktopStyle.css' />
     </head>
     
     <body>
-        <div id="homeContainer" class="pageContainer">
+        <div class="pageContainer" id="homeContainer" >
             <div class="headerContainer">
                 <div class = "name">
                     Southern Santa
@@ -22,17 +22,23 @@
 
                 <div class = "filler"></div>
 
-                <a class = "borderLink" id = "colorHeader" href="/" style = "color:#d00008;">Home</a>
-                <a class = "borderLink" href="public/pages/about.html">About</a>
-                <a class = "borderLink" href="public/pages/contact.html">Contact</a>
-                <a class = "borderLink" href="public/pages/photos.html">Photos</a>
+                <div class = "borderLink" id = "home" style = "color:#d00008;">Home</div>
+                <div class = "borderLink" id = "about">About</div>
+                <div class = "borderLink" id = "contact">Contact</div>
+                <div class = "borderLink" id = "photos">Photos</div>
             </div>
             
-            <div class = "homeContent"></div>
+            <div class = "contentContainer">
+                <div class = "aboutContent"></div>
+                <div class = "contactContent"></div>
+                <div class = "photosContent"></div>
+            </div>
+            
         
         </div>
         
         <!-- SCRIPTS -->
-        <script src="public/js/jquery.min.js"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/nav.js"></script>
     </body>
 </html>

@@ -29,7 +29,7 @@ html, body {
     
 }
 */
-.headerContainer a {
+.headerContainer .borderLink {
   padding-left: 30px;
   padding-right: 30px;
   text-decoration: none;
@@ -61,9 +61,14 @@ html, body {
 /* SITE WIDE STYLE */
 /* ================================================= */
 .pageContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; }
+
+.contentContainer {
   flex-grow: 1;
-  height: 25%;
-  width: 100%; }
+  display: flex;
+  align-items: center; }
 
 /* ================================================= */
 /* HOME BODY STYLE */
@@ -79,19 +84,23 @@ html, body {
 /* ABOUT BODY STYLE */
 /* ================================================= */
 .aboutContent {
-  flex-grow: 1;
-  height: 10%;
-  width: 100%;
-  background: #f1ffff; }
+  display: none;
+  margin: auto;
+  height: 80vh;
+  width: 80vw;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px; }
 
 /* ================================================= */
 /* CONTACT BODY STYLE */
 /* ================================================= */
 .contactContent {
-  flex-grow: 1;
-  height: 10%;
-  width: 100%;
-  background: #f1ffff; }
+  display: none;
+  margin: auto;
+  height: 80vh;
+  width: 80vw;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px; }
 
 .textContent {
   width: 50%;
@@ -106,7 +115,9 @@ html, body {
 /* PHOTOS BODY STYLE */
 /* ================================================= */
 .photosContent {
-  flex-grow: 1;
-  height: 10%;
-  width: 100%;
-  background: #f1ffff; }
+  display: none;
+  margin: auto;
+  height: 80vh;
+  width: 80vw;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px; }
