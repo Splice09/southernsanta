@@ -64,19 +64,25 @@ $(document).ready(function(){
         if($('.aboutContent').is(':visible'))
         {
             $('.aboutContent').fadeOut('fast', function(){
-                $('.photosContent').fadeIn('fast');               
+                $('.photosContent').css({opacity: 0, display: 'flex'}).animate({
+                    opacity: 1
+                }, 'fast');           
             });
             noneVisible = false;
         }
         if($('.contactContent').is(':visible'))
         {
             $('.contactContent').fadeOut('fast', function(){
-                $('.photosContent').fadeIn('fast');               
+                $('.photosContent').css({opacity: 0, display: 'flex'}).animate({
+                    opacity: 1
+                }, 'fast');             
             });
             noneVisible = false;
         } 
         if(noneVisible){
-            $('.photosContent').fadeIn('fast');
+            $('.photosContent').css({opacity: 0, display: 'flex'}).animate({
+                    opacity: 1
+                }, 'fast');
         } 
        
     });
