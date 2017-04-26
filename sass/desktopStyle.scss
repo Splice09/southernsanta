@@ -22,7 +22,7 @@ html, body{
     flex-direction:row;
     height:75px;
     width:100%;
-    background:rgba(0, 0, 0, 0.5);
+    background:rgba(0, 0, 0, 0.6);
     color:$SantaGray;
 }
 /*
@@ -110,7 +110,7 @@ html, body{
     margin:auto;
     height:80vh;
     width:80vw;
-    background:rgba(0, 0, 0, 0.5);
+    background:rgba(0, 0, 0, 0.6);
     border-radius:10px;
 }
 /* ================================================= */
@@ -121,7 +121,7 @@ html, body{
     margin:auto;
     height:80vh;
     width:80vw;
-    background:rgba(0, 0, 0, 0.5);
+    background:rgba(0, 0, 0, 0.6);
     border-radius:10px;
 }
 .textContent{
@@ -133,6 +133,40 @@ html, body{
     width:50%;
     height:100%;
 }
+#contactText{
+    height:100%;
+    width:50%;
+    border-radius:10px;
+    padding:20px;
+}
+#contactText h1{
+    font-family: 'Great Vibes', cursive;
+    text-align:center;
+    color:$SantaGold;
+    font-size:3em;
+}
+#contactText #text{
+    width:50%;
+    margin:0 auto;
+}
+#contactText p{
+    text-align:center;
+    color:white;
+    font-size:1.5em;
+}
+#linkContainer{
+    width:100%;
+    margin-top:50px;
+}
+#mailLink{
+    width:20%;
+    margin-left:39.5%;
+}
+#calendar{
+    height:100%;
+    width:50%;
+    border-radius:10px;
+}
 /* ================================================= */
 /* PHOTOS BODY STYLE */
 /* ================================================= */
@@ -142,7 +176,7 @@ html, body{
     margin:auto;
     height:80vh;
     width:80vw;
-    background:rgba(0, 0, 0, 0.5);
+    background:rgba(0, 0, 0, 0.6);
     border-radius:10px;
 }
 .image{

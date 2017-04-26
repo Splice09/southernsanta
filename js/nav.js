@@ -40,19 +40,25 @@ $(document).ready(function(){
         if($('.aboutContent').is(':visible'))
         {
             $('.aboutContent').fadeOut('fast', function(){
-                $('.contactContent').fadeIn('fast');               
+                $('.contactContent').css({opacity: 0, display: 'flex'}).animate({
+                    opacity: 1
+                }, 'fast');                
             });
             noneVisible = false;
         }
         if($('.photosContent').is(':visible'))
         {
             $('.photosContent').fadeOut('fast', function(){
-                $('.contactContent').fadeIn('fast');               
+                $('.contactContent').css({opacity: 0, display: 'flex'}).animate({
+                    opacity: 1
+                }, 'fast');              
             });
             noneVisible = false;
         }
         if(noneVisible){
-            $('.contactContent').fadeIn('fast');
+            $('.contactContent').css({opacity: 0, display: 'flex'}).animate({
+                opacity: 1
+            }, 'fast'); 
         } 
     });
     
