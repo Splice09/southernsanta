@@ -205,7 +205,9 @@ h1 {
   border: 2px solid white; }
 
 .close {
-  height: 50px;
+  height: 30px;
   position: absolute;
   top: 0;
-  right: 0; }
+  right: 0;
+  margin: 20px;
+  cursor: pointer; }
