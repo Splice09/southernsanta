@@ -99,6 +99,12 @@ app.use('/public/', function(request, response){
                             response.write(file, "binary");
                             response.end();
                         }
+                        else if(fullPath == "/app/photos/Red_X.svg"){
+                            //must specify specific content type in header to properly return svg
+                            response.writeHeader(200, {"Content-Type": "image/svg+xml"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
                         else{
                             response.writeHeader(200);
                             response.write(file, "binary");
