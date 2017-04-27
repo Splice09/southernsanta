@@ -10,8 +10,7 @@ html, body{
     width:100%;
     margin:0;
     padding:0;
-    min-width:934px;
-    
+    min-width:934px;    
 }
 
 /* ================================================= */
@@ -90,6 +89,15 @@ html, body{
     align-items:center;
 }
 
+h1{
+    font-family: 'Great Vibes', cursive;
+    text-align:center;
+    color:$SantaGold;
+    font-size:3em;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
 /* ================================================= */
 /* HOME BODY STYLE */
 /* ================================================= */
@@ -113,6 +121,16 @@ html, body{
     background:rgba(0, 0, 0, 0.6);
     border-radius:10px;
 }
+#aboutText{
+    height:100%;
+    width:50%;
+    margin:0 auto;
+}
+#aboutText p{
+    text-align:center;
+    color:white; 
+    font-size:1.4em;
+}
 /* ================================================= */
 /* CONTACT BODY STYLE */
 /* ================================================= */
@@ -121,42 +139,40 @@ html, body{
     margin:auto;
     height:80vh;
     width:80vw;
-    background:rgba(0, 0, 0, 0.6);
+    
     border-radius:10px;
-}
-.textContent{
-    width:50%;
-    height:100%;
-    background:pink;
+    
 }
 .calendarContent{
     width:50%;
     height:100%;
 }
 #contactText{
-    height:100%;
     width:50%;
-    border-radius:10px;
+    border-radius:10px 0px 0px 10px;
     padding:20px;
+    background:rgba(0, 0, 0, 0.6);
+    overflow:auto;
 }
-#contactText h1{
-    font-family: 'Great Vibes', cursive;
-    text-align:center;
-    color:$SantaGold;
-    font-size:3em;
-}
+
 #contactText #text{
     width:50%;
     margin:0 auto;
 }
 #contactText p{
     text-align:center;
-    color:white;
-    font-size:1.5em;
+    color:white;  
+}
+#question{
+    font-size:1.4em;
+}
+#linkTip{
+    font-size:1em;
 }
 #linkContainer{
     width:100%;
     margin-top:50px;
+    margin-bottom:20px;
 }
 #mailLink{
     width:20%;
@@ -172,12 +188,18 @@ html, body{
 /* ================================================= */
 .photosContent{
     display:none;
-    flex-wrap:wrap;
+    flex-direction:column;
     margin:auto;
     height:80vh;
     width:80vw;
     background:rgba(0, 0, 0, 0.6);
     border-radius:10px;
+}
+#photoContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    overflow:auto;
 }
 .image{
     margin:20px;

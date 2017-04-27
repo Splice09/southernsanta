@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
 
         <!--STYLES-->
-        <link rel="stylesheet" type="text/css"  media="only screen and (orientation:landscape)" href='/public/css/desktopStyle.css' />
+        <link rel="stylesheet" type="text/css"  media="only screen and (orientation:landscape)" href='css/desktopStyle.css' />
     </head>
     
     <body>
@@ -29,30 +29,46 @@
             </div>
             
             <div class = "contentContainer">
-                <div class = "aboutContent"></div>
+                <!- ABOUT SECTION  ->
+                <div class = "aboutContent">
+                    <div id="aboutText">
+                        <h1>About</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus pretium varius. Vestibulum eu massa congue, lacinia arcu vitae, fringilla elit. Ut auctor purus nec est convallis eleifend. Praesent diam quam, lobortis a felis id, tincidunt congue ante. Praesent ligula risus, porta ac imperdiet non, volutpat in tortor. Nulla at mi placerat, sagittis leo ac, pharetra nulla. Quisque fringilla tellus a orci convallis, sed ultricies elit commodo. In hac habitasse platea dictumst. Maecenas quis fermentum erat. Donec sit amet interdum quam, finibus blandit leo. Quisque enim risus, laoreet non magna vitae, tempor vulputate felis.
+                        </p>
+                    </div>
+                </div>
+                
+                <!- CONTACT SECTION  ->
                 <div class = "contactContent">
                     <div id="contactText">
                         <h1>Contact</h1>
                         <div id="text">
-                            <p>If you would like to schedule an appointment or if you have any questions, please click on the link below.</p>
+                            <p id="question">Care to schedule an appointment, or have any questions?</p>
                             <div id="linkContainer">
                                 <a href="mailto:flemingsanta@gmail.com" title="Email" class="pageLink">
-                                    <img src="/public/photos/New_Logo_Gmail.svg" id="mailLink">
+                                    <img src="photos/New_Logo_Gmail.svg" id="mailLink">
                                 </a>
                             </div>
+                            <p id="linkTip">Click on the link above to write a letter to Santa</p>
                         </div>
                     </div>
                     <div id="calendar">
                         <iframe src="https://calendar.google.com/calendar/embed?src=flemingsanta%40gmail.com&ctz=America/Chicago" style="border: 0; width:100%; height:100%; margin:0 auto;"  frameborder="0" scrolling="no"></iframe>
                     </div>
                 </div>
+                
+                <!- PHOTOS SECTION  ->
                 <div class = "photosContent">
-                    <div class = "image"></div>
-                    <div class = "image"></div>
-                    <div class = "image"></div>
-                    <div class = "image"></div>
-                    <div class = "image"></div>
-                    <div class = "image"></div>
+                    <h1>Photos</h1>
+                    <div id="photoContainer">
+                        <div class = "image"></div>
+                        <div class = "image"></div>
+                        <div class = "image"></div>
+                        <div class = "image"></div>
+                        <div class = "image"></div>
+                        <div class = "image"></div>
+                    </div>
                 </div>
             </div>
             
@@ -60,7 +76,7 @@
         </div>
         
         <!-- SCRIPTS -->
-        <script src="/public/js/jquery.min.js"></script>
-        <script src="/public/js/nav.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/nav.js"></script>
     </body>
 </html>
