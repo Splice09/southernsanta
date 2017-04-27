@@ -94,6 +94,7 @@ app.use('/public/', function(request, response){
                         }
                         else if(fullPath == "/app/photos/New_Logo_Gmail.svg"){
                             console.log("&&&&&&& DEFINITELY PICKING UP THAT PHOTO PATH &&&&&&&&");
+                            //must specify specific content type in header to properly return svg
                             response.writeHeader(200, {"Content-Type": "image/svg+xml"});
                             response.write(file, "binary");
                             response.end();
