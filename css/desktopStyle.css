@@ -94,6 +94,7 @@ h1 {
 /* ================================================= */
 .aboutContent {
   display: none;
+  flex-direction: column;
   margin: auto;
   height: 80vh;
   width: 80vw;
@@ -101,9 +102,9 @@ h1 {
   border-radius: 10px; }
 
 #aboutText {
-  height: 100%;
   width: 50%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: auto; }
 
 #aboutText p {
   text-align: center;

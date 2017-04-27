@@ -16,19 +16,25 @@ $(document).ready(function(){
         if($('.contactContent').is(':visible'))
         {
             $('.contactContent').fadeOut('fast', function(){
-                $('.aboutContent').fadeIn('fast');               
+                $('.aboutContent').css({opacity: 0, display: 'flex'}).animate({
+                    opacity: 1
+                }, 'fast');               
             });
             noneVisible = false;
         }
         if($('.photosContent').is(':visible'))
         {
             $('.photosContent').fadeOut('fast', function(){
-                $('.aboutContent').fadeIn('fast');               
+                $('.aboutContent').css({opacity: 0, display: 'flex'}).animate({
+                    opacity: 1
+                }, 'fast');               
             });
             noneVisible = false;
         }
         if(noneVisible){
-            $('.aboutContent').fadeIn('fast');
+            $('.aboutContent').css({opacity: 0, display: 'flex'}).animate({
+                opacity: 1
+            }, 'fast'); 
         }  
     });
     
