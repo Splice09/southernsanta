@@ -92,7 +92,7 @@ app.use('/public/', function(request, response){
                             response.write(file, "binary");
                             response.end();
                         }
-                        else if(fullPath == "/app/photos/New_Logo_Gmail.svg"){
+                        else if(fullPath == "/app/photos/*"){
                             console.log("&&&&&&& DEFINITELY PICKING UP THAT PHOTO PATH &&&&&&&&");
                             response.writeHeader(200, {"Content-Type": "image/svg+xml"});
                             response.write(file, "binary");
