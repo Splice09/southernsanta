@@ -91,6 +91,11 @@ app.use('/public/', function(request, response){
                             response.write(file, "binary");
                             response.end();
                         }
+                        else if(fullPath == "/app/photos/*"){
+                            response.writeHeader(200);
+                            response.write(file, "binary");
+                            response.end();
+                        }
                         else{
                             response.writeHeader(200);
                             response.write(file, "binary");
