@@ -17,7 +17,8 @@ app.use('/public/', function(request, response){
     var my_path = url.parse(request.url).pathname;
     console.log(path.join(url.parse(request.url).pathname, "This is the requested path"));
     console.log("The full path is ---" + path.join(process.cwd(), my_path));
-
+    var fullPath = path.join(process.cwd(), my_path);
+    
     //check for request method for either a GET or a POST
     if(request.method == 'POST'){
         console.log("*****************************" + request.body.page_name);
