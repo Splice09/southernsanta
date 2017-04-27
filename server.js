@@ -16,8 +16,9 @@ app.use('/public/', function(request, response){
    // console.log("=======================your REQ is: " + request.method);
     var my_path = url.parse(request.url).pathname;
     console.log(path.join(url.parse(request.url).pathname, "This is the requested path"));
-    console.log("The full path is ---" + path.join(process.cwd(), my_path));
+    console.log("The full path is ---");
     var fullPath = path.join(process.cwd(), my_path);
+    console.log(fullPath);
     
     //check for request method for either a GET or a POST
     if(request.method == 'POST'){
