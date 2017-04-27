@@ -16,9 +16,7 @@ app.use('/public/', function(request, response){
    // console.log("=======================your REQ is: " + request.method);
     var my_path = url.parse(request.url).pathname;
     console.log(path.join(url.parse(request.url).pathname, "This is the requested path"));
-    console.log("The full path is ---");
-    var fullPath = path.join(process.cwd(), my_path);
-    console.log(fullPath);
+    console.log("The full path is ---" + path.join(process.cwd(), my_path));
 
     //check for request method for either a GET or a POST
     if(request.method == 'POST'){
@@ -46,6 +44,7 @@ app.use('/public/', function(request, response){
     }
     else{
         try{
+            console.log("IN THE ELSE WHAT UP");
             stats = fileSys.lstatSync(fullPath);
             if(stats.isDirectory()){
                 response.writeHeader(404, {"Content-Type": "text/plain"});
@@ -92,6 +91,7 @@ app.use('/public/', function(request, response){
                             response.end();
                         }
                         else if(fullPath == "/app/photos/New_Logo_Gmail.svg"){
+                            console.log("&&&&&&& DEFINITELY PICKING UP THAT PHOTO PATH &&&&&&&&");
                             response.writeHeader(200);
                             response.write(file, "binary");
                             response.end();
