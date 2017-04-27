@@ -172,17 +172,34 @@ h1 {
   background: rgba(0, 0, 0, 0.6);
   border-radius: 10px; }
 
-#photoContainer {
+#thumbnailContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto; }
 
-.image {
+.thumbnail {
   margin: 20px;
   height: 200px;
   width: 200px;
   border: 2px;
   border-style: solid;
   border-radius: 10px;
-  border-color: white; }
+  border-color: white;
+  background: blue; }
+
+.photoContainer {
+  display: none;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black; }
+
+.image {
+  align-self: center;
+  height: 90vh;
+  padding: 10px;
+  border: 2px solid white; }

@@ -1,5 +1,9 @@
 $(document).ready(function(){
-    //Calls the getData function when the page is ready.
+   /*
+   ===================================================
+   HANDLE THE HOME CLICK EVENT
+   ===================================================
+   */
    $('#home').click(function(){
        $('.borderLink').css('color', 'white');
        $(this).css('color', '#d00008');
@@ -8,6 +12,11 @@ $(document).ready(function(){
        $('.photosContent').fadeOut('fast');
     });
     
+    /*
+    ===================================================
+    HANDLE THE ABOUT CLICK EVENT
+    ===================================================
+    */
     $("#about").click(function(){
         $('.borderLink').css('color', 'white');
         $(this).css('color', '#d00008');
@@ -38,6 +47,12 @@ $(document).ready(function(){
         }  
     });
     
+    
+    /*
+    ===================================================
+    HANDLE THE CONTACT CLICK EVENT
+    ===================================================
+    */
     $('#contact').click(function(){
         $('.borderLink').css('color', 'white');
         $(this).css('color', '#d00008');
@@ -68,6 +83,11 @@ $(document).ready(function(){
         } 
     });
     
+    /*
+    ===================================================
+    HANDLE THE PHOTOS CLICK EVENT
+    ===================================================
+    */
     $('#photos').click(function(){
         $('.borderLink').css('color', 'white');
         $(this).css('color', '#d00008');
