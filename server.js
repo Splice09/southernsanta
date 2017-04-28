@@ -105,6 +105,78 @@ app.use('/public/', function(request, response){
                             response.write(file, "binary");
                             response.end();
                         }
+                        else if(fullPath == "/app/photos/img0.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img1.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img2.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img3.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img4.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img5.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img6.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img7.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img8.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img9.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img10.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath == "/app/photos/img11.gif"){
+                            //must specify specific content type in header to properly return gif
+                            response.writeHeader(200, {"Content-Type": "image/gif"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
                         else{
                             response.writeHeader(200);
                             response.write(file, "binary");

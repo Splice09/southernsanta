@@ -5,6 +5,13 @@ $(document).ready(function(){
         ,'http://i.imgur.com/Ur03C5l.jpg'
         ,'http://i.imgur.com/E7zVb9o.jpg'
         ,'http://i.imgur.com/rAScQtY.jpg'
+        ,'http://i.imgur.com/XHisZYy.jpg'
+        ,'http://i.imgur.com/cwgwtmV.jpg'
+        ,'http://i.imgur.com/PJ3Upzg.jpg'
+        ,'http://i.imgur.com/Xlxvo1v.jpg'
+        ,'http://i.imgur.com/LH4AZew.jpg'
+        ,'http://i.imgur.com/9O6fLlH.jpg'
+        ,'http://i.imgur.com/tdSUQ8c.jpg'
     ]
     $('.thumbnail').click(function(){
         var thumbnailValue = $(this).data('value');
