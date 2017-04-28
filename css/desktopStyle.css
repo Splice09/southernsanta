@@ -185,8 +185,7 @@ h1 {
   border: 2px;
   border-style: solid;
   border-radius: 10px;
-  border-color: white;
-  background: blue; }
+  border-color: white; }
 
 .photoContainer {
   display: none;
