@@ -186,7 +186,7 @@ h1 {
   border-style: solid;
   border-radius: 10px;
   border-color: white;
-  background: blue; }
+  cursor: pointer; }
 
 .photoContainer {
   display: none;
@@ -203,3 +203,11 @@ h1 {
   height: 90vh;
   padding: 10px;
   border: 2px solid white; }
+
+.close {
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  cursor: pointer; }
