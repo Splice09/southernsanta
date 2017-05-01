@@ -4,8 +4,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0;
-  min-width: 934px; }
+  padding: 0; }
 
 /* ================================================= */
 /* HEADER STYLE */
@@ -16,7 +15,8 @@ html, body {
   height: 75px;
   width: 100%;
   background: rgba(0, 0, 0, 0.6);
-  color: #d7d6d6; }
+  color: #d7d6d6;
+  transition: .5s; }
 
 /*
 .header{
@@ -37,7 +37,10 @@ html, body {
   line-height: 75px;
   height: 75px;
   color: white;
-  cursor: pointer; }
+  cursor: pointer;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+  transition: .5s; }
 
 .borderLink {
   border-left: solid #d7d6d6 2px; }
@@ -48,6 +51,9 @@ html, body {
 .filler {
   flex-grow: 1; }
 
+.linkContainer {
+  display: flex; }
+
 .name {
   font-size: 4rem;
   text-align: right;
@@ -56,7 +62,8 @@ html, body {
   white-space: nowrap;
   line-height: 90px;
   font-family: 'Great Vibes', cursive;
-  color: #dfbc49; }
+  color: #dfbc49;
+  transition: .5s; }
 
 /* ================================================= */
 /* SITE WIDE STYLE */
