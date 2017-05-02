@@ -1,37 +1,94 @@
 <!DOCTYPE html>
 <html> 
-        <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="initial-scale=1">
-            <title>Southern Santa</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1">
+        <title>Southern Santa</title>
 
-            <!--FONTS-->
-            <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lato" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+        <!--FONTS-->
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
 
-
-            <!--STYLES-->
-            <link rel="stylesheet" type="text/css"  media="only screen and (orientation:landscape)" href='./css/desktopStyle.css' />
-        </head>
+        <!--STYLES-->
+        <link rel="stylesheet" type="text/css"  media="only screen and (orientation:landscape)" href='css/desktopStyle.css' />
+        <link rel="stylesheet" type="text/css"  media="only screen and (orientation:landscape) and (max-width:950px)" href='css/mobileLandscapeStyle.css' />
+    </head>
     
     <body>
-        <div id="homeContainer" class="pageContainer">
+        <div class="pageContainer" id="homeContainer" >
             <div class="headerContainer">
                 <div class = "name">
                     Southern Santa
                 </div>
 
                 <div class = "filler"></div>
-
-                <a class = "borderLink" id = "colorHeader" href="/" style = "color:#d00008;">Home</a>
-                <a class = "borderLink" href="./pages/about.html">About</a>
-                <a class = "borderLink" href="./pages/contact.html">Contact</a>
-                <a class = "borderLink" href="./pages/photos.html">Photos</a>
+                <div class = "linkContainer">
+                    <div class = "borderLink" id = "home" style = "color:#d00008;">Home</div>
+                    <div class = "borderLink" id = "about">About</div>
+                    <div class = "borderLink" id = "contact">Contact</div>
+                    <div class = "borderLink" id = "photos">Photos</div>
+                </div>
             </div>
-
-            <div class = "homeContent"></div>
+            
+            <div class = "contentContainer">
+                <!- ABOUT SECTION  ->
+                <div class = "aboutContent">
+                    <h1>About</h1>
+                    <div id="aboutText">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus pretium varius. Vestibulum eu massa congue, lacinia arcu vitae, fringilla elit. Ut auctor purus nec est convallis eleifend. Praesent diam quam, lobortis a felis id, tincidunt congue ante. Praesent ligula risus, porta ac imperdiet non, volutpat in tortor. Nulla at mi placerat, sagittis leo ac, pharetra nulla. Quisque fringilla tellus a orci convallis, sed ultricies elit commodo. In hac habitasse platea dictumst. Maecenas quis fermentum erat. Donec sit amet interdum quam, finibus blandit leo. Quisque enim risus, laoreet non magna vitae, tempor vulputate felis.
+                        </p>
+                    </div>
+                </div>
+                
+                <!- CONTACT SECTION  ->
+                <div class = "contactContent">
+                    <div id="contactText">
+                        <h1>Contact</h1>
+                        <div id="text">
+                            <p id="question">Care to schedule an appointment, or have any questions?</p>
+                            <div id="linkContainer">
+                                <a href="mailto:flemingsanta@gmail.com" title="Email" class="pageLink">
+                                    <img src="photos/New_Logo_Gmail.svg" id="mailLink">
+                                </a>
+                            </div>
+                            <p id="linkTip">Click on the link above to write a letter to Santa</p>
+                        </div>
+                    </div>
+                    <div id="calendar">
+                        <iframe src="https://calendar.google.com/calendar/embed?src=flemingsanta%40gmail.com&ctz=America/Chicago" style="border: 0; width:100%; height:100%; margin:0 auto;"  frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+                
+                <!- PHOTOS SECTION  ->
+                <div class = "photosContent">
+                    <h1>Photos</h1>
+                    <div id="thumbnailContainer">
+                        <img src="photos/img0.gif" class = "thumbnail" data-value='0'>
+                        <img src="photos/img1.gif" class = "thumbnail" data-value='1'>
+                        <img src="photos/img2.gif" class = "thumbnail" data-value='2'>
+                        <img src="photos/img3.gif" class = "thumbnail" data-value='3'>
+                        <img src="photos/img4.gif" class = "thumbnail" data-value='4'>
+                        <img src="photos/img5.gif" class = "thumbnail" data-value='5'>
+                        <img src="photos/img6.gif" class = "thumbnail" data-value='6'>
+                        <img src="photos/img7.gif" class = "thumbnail" data-value='7'>
+                        <img src="photos/img8.gif" class = "thumbnail" data-value='8'>
+                        <img src="photos/img9.gif" class = "thumbnail" data-value='9'>
+                        <img src="photos/img10.gif" class = "thumbnail" data-value='10'>
+                        <img src="photos/img11.gif" class = "thumbnail" data-value='11'>
+                    </div>
+                </div>
+            </div>
+            
+        
+        </div>
+        <div class="photoContainer">
+            <img src="photos/Red_X.svg" class = "close">
+            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class = "image">
         </div>
         <!-- SCRIPTS -->
-        <script src="./js/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/photoViewer.js"></script>
+        <script src="js/nav.js"></script>
     </body>
 </html>
