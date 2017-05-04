@@ -7,6 +7,7 @@ $(document).ready(function(){
    $('#santa').click(function(){
        $('.borderLink').css('color', 'white');
        $(this).css('color', '#dfbc49');
+       $('#home').css('color', '#d00008');
        $('.aboutContent').fadeOut('fast');
        $('.contactContent').fadeOut('fast');
        $('.photosContent').fadeOut('fast');
