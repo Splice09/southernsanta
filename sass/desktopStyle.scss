@@ -24,17 +24,9 @@ html, body{
     color:$SantaGray;
     transition:.5s;
 }
-/*
-.header{
-    display:flex;
-    flex-direction:row;
-    height:75px;
-    width:100%;
-    background:black;
-    color:$SantaGray;
-    
+#santa{
+    display:none;
 }
-*/
 
 .headerContainer .borderLink{
     padding-left:30px;

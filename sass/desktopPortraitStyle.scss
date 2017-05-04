@@ -49,7 +49,14 @@ h1{
     display:flex;
 }
 #home{
+    display:none;
     border:none;
+}
+#santa{
+    font-family: 'Great Vibes', cursive;
+    font-size:3em;
+    border:none;
+    line-height:90px;
 }
 .headerContainer .borderLink{
     
@@ -120,7 +127,7 @@ h1{
     margin:5%;
     border:2px solid $SantaRed;
     height:80vh;
-    
+    background:rgba(0, 0, 0, 0.6);
 }
 .calendarContent{
     width:50%;
@@ -128,8 +135,8 @@ h1{
 }
 #contactText{
     height:50%;
-    padding:20px;
-    background:rgba(0, 0, 0, 0.6);
+    padding-left:20px;
+    padding-right:20px;
     overflow:auto;
 }
 
@@ -141,6 +148,7 @@ h1{
     color:white;  
 }
 #question{
+    margin-top:0;
     font-size:1.2em;
 }
 #linkTip{

@@ -1,4 +1,16 @@
 $(document).ready(function(){
+    /*
+   ===================================================
+   HANDLE THE 'S' CLICK EVENT
+   ===================================================
+   */
+   $('#santa').click(function(){
+       $('.borderLink').css('color', 'white');
+       $(this).css('color', '#dfbc49');
+       $('.aboutContent').fadeOut('fast');
+       $('.contactContent').fadeOut('fast');
+       $('.photosContent').fadeOut('fast');
+    });
    /*
    ===================================================
    HANDLE THE HOME CLICK EVENT
