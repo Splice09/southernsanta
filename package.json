@@ -5,6 +5,9 @@
   "main": "server.js",
   "author": "Patrick Fleming",
   "license": "MIT",
+  "engines": {
+    "node":"9.2.0"
+  },
   "dependencies": {
     "connect": "3.4.1",
     "gulp": "^3.9.1"
