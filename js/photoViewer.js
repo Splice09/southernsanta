@@ -13,7 +13,7 @@ $(document).ready(function(){
         ,'https://i.imgur.com/9O6fLlH.jpg'
         ,'https://i.imgur.com/tdSUQ8c.jpg'
         ,'https://i.imgur.com/J9BJ04x.jpg'
-        ,'https://i.imgur.com/jyAb2vV.jpg'
+        ,'https://i.imgur.com/rTObFzX.png'
     ]
     var tinyGif = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
     
