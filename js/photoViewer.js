@@ -20,12 +20,12 @@ $(document).ready(function(){
     //LOAD PHOTO URL BASED ON THUMBNAIL CLICK
     $('.thumbnail').click(function(){
         var thumbnailValue = $(this).data('value');
-        $('.photoCredit').css({opacity:0});
         $('.photoContainer').css({opacity: 0, display: 'flex'}).animate({
                     opacity: 1
             }, 'fast', function(){
                 $('.image').attr('src', photoUrls[thumbnailValue]);
         });
+        $('.photoCredit').css({opacity:0});
     });
     
     //CLEAR PHOTO SRC URL AND HIDE THE FRAME
