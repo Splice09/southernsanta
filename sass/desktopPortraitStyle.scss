@@ -236,3 +236,16 @@ border-radius: 10px;
     margin:20px;
     cursor: pointer;
 }
+
+/* ================================================= */
+/* PHOTO CREDIT */
+/* ================================================= */
+.photoCredit{
+    position:absolute;
+    text-align:center;
+    right:0px;
+    bottom:0px;
+    width:320px;
+    background:rgba(0, 0, 0, 0.6);
+    color:rgba(255, 255, 255, 0.6);;
+}
