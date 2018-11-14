@@ -21,4 +21,3 @@
     "scss": "node-sass --watch C:/Users/Patrick/workspace/Southernsanta/sass -o C:/Users/Patrick/workspace/Southernsanta/css"
   }
 }
-
