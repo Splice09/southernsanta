@@ -5,13 +5,16 @@ $(document).ready(function(){
         $(this).css('color', '#d00008');
         var galleryBoxId = $(this).data('value');
         if (galleryBoxId == 18){
-            $('#gb18').fadeOut('fast');
+            $('#gb17').fadeOut('fast');
+            $('#gb16').fadeOut('fast');
         }
         else if (galleryBoxId == 17){
-            $('#gb17').fadeOut('fast');
+            $('#gb18').fadeOut('fast');
+            $('#gb16').fadeOut('fast');
         }
         else{
-            $('#gb16').fadeOut('fast');
+            $('#gb18').fadeOut('fast');
+            $('#gb17').fadeOut('fast');
         }
         $('#gb' + galleryBoxId).css({opacity: 0, display: 'flex'}).animate({
             opacity: 1
