@@ -188,19 +188,19 @@ h1 {
   background: rgba(0, 0, 0, 0.6);
   border-radius: 10px; }
 
-#EightteenContainer {
+#eightteenContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto; }
 
-#SeventeenContainer {
+#seventeenContainer {
   display: none;
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto; }
 
-#SixteenContainer {
+#sixteenContainer {
   display: none;
   flex-wrap: wrap;
   justify-content: center;
