@@ -206,19 +206,19 @@ h1 {
 #eightteen {
   color: #d00008; }
 
-#eightteenContainer {
+#gb18 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto; }
 
-#seventeenContainer {
+#gb17 {
   display: none;
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto; }
 
-#sixteenContainer {
+#gb16 {
   display: none;
   flex-wrap: wrap;
   justify-content: center;
