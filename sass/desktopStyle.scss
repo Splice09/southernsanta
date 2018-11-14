@@ -212,6 +212,16 @@ h1{
     border-radius:10px;
 }
 
+#galleryLinkContainer{
+    display: inline;
+    font-size:2em;
+    color:white;
+}
+
+#eightteen{
+    color:$SantaRed;
+}
+
 #eightteenContainer{
     display:flex;
     flex-wrap:wrap;
