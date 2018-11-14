@@ -176,7 +176,7 @@ h1 {
   display: none;
   flex-direction: column;
   background: rgba(0, 0, 0, 0.6);
-  margin: 5%;
+  margin-top: 5%;
   border: 2px solid #d00008;
   height: 80vh; }
 
