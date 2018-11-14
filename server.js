@@ -87,6 +87,16 @@ app.use('/public/', function(request, response){
                             response.write(file, "binary");
                             response.end();
                         }
+                        else if(fullPath =="/app/css/desktopPortraitStyle.css"){
+                            response.writeHeader(200, {"Content-Type": "text/css"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath =="/app/css/mobilePortraitStyle.css"){
+                            response.writeHeader(200, {"Content-Type": "text/css"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
                         else if(fullPath == "/app/photos/New_Logo_Gmail.svg"){
                             console.log("&&&&&&& DEFINITELY PICKING UP THAT PHOTO PATH &&&&&&&&");
                             //must specify specific content type in header to properly return svg

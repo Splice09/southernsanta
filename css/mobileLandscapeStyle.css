@@ -60,6 +60,9 @@ h1 {
 /* ================================================= */
 /* PHOTOS BODY STYLE */
 /* ================================================= */
+#galleryLinkContainer {
+  font-size: 1em; }
+
 .thumbnail {
   height: 100px;
   width: 100px; }
