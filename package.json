@@ -12,7 +12,13 @@
     "connect": "3.4.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
+    "gulp": "^4.0.0",
+    "gulp-sass": "^2.3.2",
+    "node-sass": "^4.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch C:/Users/Patrick/workspace/Southernsanta/sass -o C:/Users/Patrick/workspace/Southernsanta/css"
   }
 }
+
