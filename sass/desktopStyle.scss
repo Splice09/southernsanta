@@ -212,10 +212,20 @@ h1{
     border-radius:10px;
 }
 
+.photosContent h1{
+    margin-bottom:10px;
+}
+
+.numberLink{
+    margin-left:10px;
+    margin-right:10px;
+}
+
 #galleryLinkContainer{
     display: inline;
     font-size:2em;
     color:white;
+    text-align:center;
 }
 
 #eightteen{
