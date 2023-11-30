@@ -202,11 +202,17 @@ h1 {
   text-align: center;
   margin-bottom: 20px; }
 
-#twentyTwo {
+#twentyThree {
   color: #d00008; }
 
-#gb22 {
+#gb23 {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto; }
+
+#gb22 {
+  display: none;
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto; }

@@ -198,14 +198,38 @@ h1 {
   text-align: center;
   margin-bottom: 20px; }
 
-#eightteen {
+#twentyThree {
   color: #d00008; }
 
-#gb18 {
+#gb23 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto; }
+
+#gb22 {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto; }
+
+#gb21 {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto; }
+
+#gb19 {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto; }
+  
+  #gb18 {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto; }
 
 #gb17 {
   display: none;
